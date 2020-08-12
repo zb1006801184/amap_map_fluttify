@@ -1066,7 +1066,7 @@ mixin _Community on _Holder {
     );
   }
 
-  /// 批量添加marker
+  /// 批量添加平移的marker
   ///
   /// 根据[options]批量创建Marker
   Future<SmoothMoveMarker> addSmoothMoveMarker(

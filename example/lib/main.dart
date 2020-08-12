@@ -9,7 +9,7 @@ Future<void> main() async {
 
   await enableFluttifyLog(false);
   await AmapService.init(
-    iosKey: '7a04506d15fdb7585707f7091d715ef4',
+    iosKey: 'cbe00823663a07e543d2d54430432272',
     androidKey: '7c9daac55e90a439f7b4304b465297fa',
   );
 }
