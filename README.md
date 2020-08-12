@@ -10,8 +10,13 @@ dependencies:
   amap_map_fluttify: ^x.x.x
 ```
 或者直接依赖本地，path的路径为实际路径
-```amap_map_fluttify: 
-path: ../amap_map_fluttify
+```
+dependencies:
+ flutter:
+   sdk: flutter
+ amap_map_fluttify: 
+   path: ../amap_map_fluttify
+
 ```
 
 ## 配置
