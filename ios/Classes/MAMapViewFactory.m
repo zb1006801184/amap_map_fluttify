@@ -851,7 +851,9 @@ extern BOOL enableLog;
           NSMutableArray<NSObject*>* annotations = [NSMutableArray arrayWithCapacity:annotationsRefArray.count];
           for (int __i__ = 0; __i__ < annotationsRefArray.count; __i__++) {
               NSObject* item = (NSObject*) HEAP[[annotationsRefArray objectAtIndex:__i__]];
-              [annotations addObject:item];
+              if (item) {
+                  [annotations addObject:item];
+              }
           }
       
           // ref

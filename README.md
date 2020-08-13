@@ -10,7 +10,7 @@ dependencies:
   amap_map_fluttify: ^x.x.x
 ```
 或者直接依赖本地，path的路径为实际路径
-```
+```yaml
 dependencies:
  flutter:
    sdk: flutter
